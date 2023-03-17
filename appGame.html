@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/ProjetosGithub/Game-click/img/icon_pontes.ico">
+    <title>Game Pontes</title>
+</head>
+
+<body>
+    <div id="card_principal">
+        <div>
+            <h1>Fazenda Clicker</h1>
+            <img src="img/fazendeiro.jpg" alt="fazendeiro_clicker" id="fazendeiro_clicker" onclick="clickFazenda()">
+        </div>
+        <div id="box_info">
+            <p id="saldo">SALDO: 0</p>
+            <p id="valor_click">VALOR DO CLICK: 1</p>
+            <p id="valor_segundo">VALOR POR SEGUNDO: 0</p>
+        </div>
+    </div>
+    <div id="box1_cards">
+        <div id="card_animais">
+            <div>
+                <img src="img/cavalo.jpg" alt="vaca" id="img_animals">
+            </div>
+            <div id="descricao_card">
+                <h1>Cavalo</h1>
+                <p id="valor_cavalo">Valor: 10</p>
+                <button onclick="Comprar('cavalo')">Comprar</button>
+                <br>
+                <br>
+                <br>
+                <p>Ele duplica o ganho do seu click</p>
+            </div>
+        </div>
+
+        <div id="card_animais">
+
+            <div>
+                <img src="img/galinha.jpg" alt="galinha" id="img_animals">
+            </div>
+            <div id="descricao_card">
+                <h1>Galinha</h1>
+                <p id="valor_galinha">Valor: 150</p>
+                <button onclick="Comprar('galinha')">Comprar</button>
+                <br>
+                <br>
+                <br>
+                <p>Voce ganha 1 moeda por segundo</p>
+            </div>
+        </div>
+
+        <div id="card_animais">
+            <div>
+                <img src="img/pato.jpg" alt="pato" id="img_animals">
+            </div>
+            <div id="descricao_card">
+                <h1>Pato</h1>
+                <p id="valor_pato">Valor: 300</p>
+                <button onclick="Comprar('pato')">Comprar</button>
+                <br>
+                <br>
+                <p>Ele duplica o ganho do seu click</p>
+                <p>Voce ganha 1 moeda por segundo</p>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="box2_cards">
+        <div id="card_animais">
+            <div>
+                <img src="img/porco.jpg" alt="porco" id="img_animals">
+            </div>
+            <div id="descricao_card">
+                <h1>Porco</h1>
+                <p id="valor_porco">Valor: 500</p>
+                <button onclick="Comprar('porco')">Comprar</button>
+                <br>
+                <br>
+                <p>Ele duplica o ganho do seu click</p>
+                <p>Voce ganha 3 moedas por segundo</p>
+            </div>
+        </div>
+
+        <div id="card_animais">
+
+            <div>
+                <img src="img/ovelha.jpg" alt="ovelha" id="img_animals">
+            </div>
+            <div id="descricao_card">
+                <h1>Ovelha</h1>
+                <p id="valor_ovelha">Valor: 900</p>
+                <button onclick="Comprar('ovelha')">Comprar</button>
+                <br>
+                <br>
+                <p>Ele duplica o ganho do seu click</p>
+                <p>Voce ganha 5 moedas por segundo</p>
+            </div>
+        </div>
+
+        <div id="card_animais">
+            <div>
+                <img src="img/vaca.jpg" alt="vaca" id="img_animals">
+            </div>
+            <div id="descricao_card">
+                <h1>Vaca</h1>
+                <p id="valor_vaca">Valor: 1200</p>
+                <button onclick="Comprar('vaca')">Comprar</button>
+                <br>
+                <br>
+                <p>Ele triplica o ganho do seu click</p>
+                <p>Voce ganha 10 moedas por segundo</p>
+            </div>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
